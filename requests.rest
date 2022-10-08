@@ -1,0 +1,10 @@
+GET http://localhost:7000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQW5pIiwiaWF0IjoxNjY1MDk1OTQ4fQ.atG1OVoGZRMNYy7rdvP4wRY-gOFlNWnsf59dSzVf1Oc
+###
+
+POST http://localhost:7000/login
+Content-Type: application/json
+
+{
+  "username": "Ani"
+}
